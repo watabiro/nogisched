@@ -2,9 +2,11 @@
 
 乃木坂46の公式サイトのスケジュールをスクレピングして，標準出力へ出力するCLI．
 
+動的サイトのスクレイピング用のライブラリとして[chromedp](https://github.com/chromedp/chromedp)を使用しているため，Google Chromeまたはchromium-browser等が必要．
+
 usage:
 ```bash
-./nogisched -d 20220601 -notifyで通知を行う場合は使用するトークンを環境変数 `NOGI
+./nogisched -d 20220601 -notify
 ```
 
 options:
